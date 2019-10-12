@@ -1,0 +1,87 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:css-modules/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/babel",
+    "prettier/react"
+  ],
+  "plugins": [
+    "prettier",
+    "css-modules",
+    "@typescript-eslint"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "named": "never",
+        "anonymous": "always",
+        "asyncArrow": "always"
+      }
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true,
+        "before": true
+      }
+    ],
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": true,
+        "object": true
+      }
+    ],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "memberSyntaxSortOrder": ["all", "single", "multiple", "none"]
+      }
+    ],
+    "arrow-body-style": ["error", "as-needed"],
+    "prefer-arrow-callback": "error",
+    "spaced-comment": ["error", "always"],
+    "quote-props": ["error", "as-needed"],
+    "semi": ["error", "always"],
+    "newline-per-chained-call": "error",
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-var": "error",
+    "no-new": "error",
+    "no-useless-constructor": "error",
+    "no-const-assign": "error",
+    "no-delete-var": "error",
+    "prefer-const": "error",
+    "no-constant-condition": "error",
+    "no-multi-spaces": "error",
+    "no-irregular-whitespace": "error",
+    "no-whitespace-before-property": "error",
+    "no-trailing-spaces": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/adjacent-overload-signatures": "error",
+    "@typescript-eslint/ban-ts-ignore": "error",
+    "@typescript-eslint/camelcase": "error",
+    "@typescript-eslint/explicit-member-accessibility": "error",
+    "@typescript-eslint/member-ordering": "error",
+    "@typescript-eslint/no-extraneous-class": "error",
+    "@typescript-eslint/no-for-in-array": "error",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/explicit-function-return-type": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
