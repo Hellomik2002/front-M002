@@ -20,4 +20,5 @@ jobs:
         npm run test:ci
         npm run test:coverage
       env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         CI: true
