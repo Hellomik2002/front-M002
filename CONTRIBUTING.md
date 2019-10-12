@@ -1,4 +1,4 @@
-<h1 align="center">Thanks for contributing!</h1>
+<h1 align="center">❤️ Hi and thanks for contributing!</h1>
 
 ---
 
